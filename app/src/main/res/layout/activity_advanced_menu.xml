@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.krishan.cfd_unit.AdvancedMenu">
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="heatsinktog"
+        android:textOn="Heatsink ON"
+        android:textOff="Heatsink OFF"
+        android:id="@+id/HeatsinkButton"
+        android:textColor="#0028ff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laser Power"
+        android:textOn="Laser ON"
+        android:textOff="Laser OFF"
+        android:id="@+id/Laserbutton"
+        android:textColor="#b90928"
+        android:layout_below="@+id/HeatsinkButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Filter Slider Position"
+        android:id="@+id/textView"
+        android:layout_below="@+id/Laserbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/sliderval"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit "
+        android:id="@+id/submitbut"
+        android:layout_alignTop="@+id/sliderval"
+        android:layout_alignBottom="@+id/sliderval"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

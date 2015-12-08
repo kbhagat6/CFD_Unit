@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.krishan.cfd_unit" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <permission
+        android:name="android.permission.BLUETOOTH"
+        android:label="BLUETOOTH" />
+    <permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewDrugs"
+            android:label="@string/title_activity_view_drugs" >
+            <intent-filter>
+                <action android:name="com.example.krishan.cfd_unit.ViewDrugs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BluetoothActivity"
+            android:label="@string/title_activity_bluetooth" >
+            <intent-filter>
+                <action android:name="com.example.krishan.cfd_unit.BluetoothActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DeviceListActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <service
+            android:name=".UartService"
+            android:enabled="true" />
+
+        <activity
+            android:name=".ScanningActivity"
+            android:label="@string/title_activity_scanning" >
+            <intent-filter>
+                <action android:name="com.example.krishan.cfd_unit.ScanningActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdvancedMenu"
+            android:label="@string/title_activity_advanced_menu" >
+            <intent-filter>
+                <action android:name="com.example.krishan.cfd_unit.AdvancedMenu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
