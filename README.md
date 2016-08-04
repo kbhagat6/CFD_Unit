@@ -21,7 +21,7 @@
 Linux, OSX, Windows
 ```sh
 Create the repo folder. 
-git clone https://github.com/kbhagat6/CFD_Unit
+git clone https://github.com/kbhagat6/CFD_Unit.git
 ```
 
 
