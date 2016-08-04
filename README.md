@@ -26,7 +26,7 @@ git clone https://github.com/kbhagat6/CFD_Unit.git
 
 
 ## Gradle.build
-Your grade file  /apps folder should match this: 
+Your gradle file  /apps folder should match this: 
 ```
 android {
     compileSdkVersion 18 //22
