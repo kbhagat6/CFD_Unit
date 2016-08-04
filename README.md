@@ -1,5 +1,5 @@
 # Android App for Counterfeit Drug Detection System.
-> This app contains the functionalities to directly interface and communicate with a custom-built Counterfeit Drug Detection System. The steps consist of calibration of the spectrometer, the motor controlled sliders that hold the low and high pass filters, and powering the 10 mW laser diode. The main option is an automated process of firing the laser through the beam splitter and low and high pass filter into the spectrometer and then logging the results onto the Android app which notifies the user of the drug's authentication. 
+> This app contains the functionalities to directly interface and communicate with a custom-built Counterfeit Drug Detection System. The steps consist of calibration of the spectrometer, the motor controlled sliders that hold the low and high pass filters, and powering the 10 mW laser diode. The main option is an automated process of firing the laser through the beam splitter and low and high pass filter into the spectrometer and then logging the results onto the Android app which notifies the user of the drug's authenticity. 
 
 
 **Build status:** master ![](https://api.travis-ci.org/owncloud/android.svg?branch=master) stable ![](https://api.travis-ci.org/owncloud/android.svg?branch=stable)
