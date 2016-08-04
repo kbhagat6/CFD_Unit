@@ -1,5 +1,5 @@
 # Android App for Counterfeit Drug Detection System.
-> This app contains the functionalities to directly interface and communicate with a custom-built Counterfeit Drug Detection System. The steps consist of calibration of the spectrometer, the motor controlled sliders that hold the low and high pass filters, and powering the 10 mW laser diode. The main option is an automated process of firing the laser through the beam splitter and low and high pass filter into the spectrometer and then logging the results onto the Android app which notifies the user of the drug's authenticity. 
+> This app contains the functionalities to directly interface and communicate with a custom-built Counterfeit Drug Detection System. The steps consist of calibration of the spectrometer, the motor controlled sliders that hold the low and high pass filters, and powering the 10 mW laser diode, and the heat dissipating fan. By the click of a button, the user can start an automated process of firing the laser through the beam splitter and low/high pass filter into the spectrometer and then logging the results of the spectrum onto the Android app which notifies the user of the drug's authenticity. 
 
 
 **Build status:** master ![](https://api.travis-ci.org/owncloud/android.svg?branch=master) stable ![](https://api.travis-ci.org/owncloud/android.svg?branch=stable)
@@ -15,7 +15,7 @@
  
 ## Installation
 * <a href="https://github.com/kbhagat6/CFD_Unit/raw/master/app-debug-unaligned.apk" target="_blank">Download the CDF_Unit APK</a>
-* To run the python code for the analysis, install <a href="https://docs.continuum.io/anaconda/install"> Anaconda Package Manager tools </a> and set system paths appropriately to enable dependencies. The code will wait for connection to the arduino and will collect realtime data as the spectrometer captures the spectrum deflected off the drug. Graphs will display after each trial. 
+* To run the python code for the analysis, install <a href="https://docs.continuum.io/anaconda/install"> Anaconda Package Manager tools </a> and set system paths appropriately to enable dependencies. The code will wait for connection to the arduino and will collect realtime data as the spectrometer captures the light deflected off the drug and renders a spectrum. Graphs will display after each trial. 
 
 
 Linux, OSX, Windows
