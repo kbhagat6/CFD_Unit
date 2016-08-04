@@ -1,0 +1,13 @@
+language: android
+sudo: true
+android:
+  components:
+    - tools
+    - platform-tools
+    - build-tools-22.0.1
+    - android-18
+
+
+before_install:
+  - git clone https://github.com/kbhagat6/CFD_Unit.git $HOME/CFD_Unit-root
+  - export CFD_UNIT_HOME=$HOME/CFD_Unit-root
