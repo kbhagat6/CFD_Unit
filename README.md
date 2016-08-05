@@ -14,15 +14,16 @@
 ![](https://raw.githubusercontent.com/kbhagat6/CFD_Unit/master/mainfig.png)
  
 ## Installation
-* <a href="https://github.com/kbhagat6/CFD_Unit/raw/master/app-debug-unaligned.apk" target="_blank">Download the CDF_Unit APK</a>
-* To run the python code for the analysis, install <a href="https://docs.continuum.io/anaconda/install"> Anaconda Package Manager tools </a> and set system paths appropriately to enable dependencies. The code will wait for connection to the arduino and will collect realtime data as the spectrometer captures the light deflected off the drug and renders a spectrum. Graphs will display after each trial. 
-
-
-Linux, OSX, Windows
+* Download and Install <a href="https://github.com/kbhagat6/CFD_Unit/raw/master/app-debug-unaligned.apk" target="_blank"> CDF_Unit APK</a> on a working Android Phone with Bluetooth Low Energy compatability.
+* Linux, OSX, Windows
 ```sh
 Create the repo folder. 
 git clone https://github.com/kbhagat6/CFD_Unit.git
 ```
+
+* To run the python code for the analysis, install <a href="https://docs.continuum.io/anaconda/install"> Anaconda Package Manager tools </a> and set system paths appropriately to enable dependencies. The code will wait for connection to the arduino and will collect realtime data as the spectrometer captures the light deflected off the drug and renders a spectrum. Graphs will display after each trial. 
+
+
 
 
 ## Gradle.build
